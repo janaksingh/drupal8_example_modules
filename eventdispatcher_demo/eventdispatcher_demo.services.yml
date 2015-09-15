@@ -1,0 +1,5 @@
+services:
+  eventdispatcher_demo.redirect_subscriber:
+    class: Drupal\eventdispatcher_demo\EventSubscriber\RedirectSubscriber
+    tags:
+      - { name: event_subscriber }
